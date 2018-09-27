@@ -28,7 +28,7 @@ if self.end_with?("!")
 
   def count_sentences
     
- self.split(/[a-z][.!?]/).count
+ self.split(/[a-z][a-z][.!?]/).count
  
   end
 end
