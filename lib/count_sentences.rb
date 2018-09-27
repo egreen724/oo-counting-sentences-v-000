@@ -28,8 +28,8 @@ if self.end_with?("!")
 
   def count_sentences
     binding.pry
- self.split(/[\.\!\?]/)
- self.reject!{|string| string = ""}
- self.count 
+ self.split(/\.\!\?/)
+ #self.reject!{|string| string = ""}
+ #self.count 
   end
 end
