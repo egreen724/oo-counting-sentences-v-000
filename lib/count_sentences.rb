@@ -30,6 +30,6 @@ if self.end_with?("!")
     binding.pry
  self.split(/[\.\!\?]/)
  self.reject!{|string| string = ""}
- 
+ self.count 
   end
 end
